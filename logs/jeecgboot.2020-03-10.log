@@ -1,0 +1,141 @@
+2020-03-10 17:46:45.272 [main] INFO  org.jeecg.JeecgApplication:50 - Starting JeecgApplication on wufanxindeMacBook-Pro.local with PID 45251 (/Users/melo/Documents/attendance/attendance-back/jeecg-boot-module-system/target/classes started by melo in /Users/melo/Documents/attendance/attendance-back)
+2020-03-10 17:46:45.277 [main] INFO  org.jeecg.JeecgApplication:679 - The following profiles are active: dev
+2020-03-10 17:46:46.591 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-10 17:46:46.595 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-10 17:46:46.667 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 52ms. Found 0 repository interfaces.
+2020-03-10 17:46:46.987 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroConfig' of type [org.jeecg.config.ShiroConfig$$EnhancerBySpringCGLIB$$caea57cd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-10 17:46:47.127 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroRealm' of type [org.jeecg.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-10 17:46:52.232 [main] INFO  org.jeecg.config.ShiroConfig:198 - ===============(1)创建缓存管理器RedisCacheManager
+2020-03-10 17:46:52.235 [main] INFO  org.jeecg.config.ShiroConfig:216 - ===============(2)创建RedisManager,连接Redis..URL= 106.12.160.17:7379
+2020-03-10 17:46:52.239 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisManager' of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-10 17:46:52.244 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-10 17:46:52.268 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-10 17:46:52.330 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$aae4ee37] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-10 17:46:52.534 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-10 17:46:52.540 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$14735f08] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-10 17:46:52.551 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-10 17:46:52.557 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-10 17:46:52.575 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-10 17:46:52.583 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$bffeac81] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-10 17:46:52.686 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-10 17:46:52.768 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-10 17:46:52.782 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConfig' of type [org.jeecg.config.RedisConfig$$EnhancerBySpringCGLIB$$15b8df17] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-10 17:46:52.815 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$bdfdcbe7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-10 17:46:52.821 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-10 17:46:53.259 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 8080 (http)
+2020-03-10 17:46:53.274 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-10 17:46:53.283 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2020-03-10 17:46:53.284 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2020-03-10 17:46:53.289 [main] INFO  org.apache.catalina.core.AprLifecycleListener:173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/melo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-03-10 17:46:53.422 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/jeecg-boot]:173 - Initializing Spring embedded WebApplicationContext
+2020-03-10 17:46:53.423 [main] INFO  org.springframework.web.context.ContextLoader:296 - Root WebApplicationContext: initialization completed in 8107 ms
+2020-03-10 17:46:53.792 [main] INFO  c.b.dynamic.datasource.DynamicDataSourceCreator:113 - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+2020-03-10 17:46:56.992 [main] INFO  com.alibaba.druid.pool.DruidDataSource:1003 - {dataSource-1,master} inited
+2020-03-10 17:46:56.993 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:203 - 初始共加载 1 个数据源
+2020-03-10 17:46:56.994 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:142 - 动态数据源-加载 master 成功
+2020-03-10 17:46:56.995 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:212 - 当前的默认数据源是单数据源，数据源名为 master
+2020-03-10 17:47:00.140 [main] INFO  org.quartz.impl.StdSchedulerFactory:1208 - Using default implementation for ThreadExecutor
+2020-03-10 17:47:00.153 [main] INFO  org.quartz.core.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-03-10 17:47:00.153 [main] INFO  org.quartz.core.QuartzScheduler:229 - Quartz Scheduler v.2.3.0 created.
+2020-03-10 17:47:00.159 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:672 - Using db table-based data access locking (synchronization).
+2020-03-10 17:47:00.161 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:145 - JobStoreCMT initialized.
+2020-03-10 17:47:00.161 [main] INFO  org.quartz.core.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2020-03-10 17:47:00.162 [main] INFO  org.quartz.impl.StdSchedulerFactory:1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-03-10 17:47:00.162 [main] INFO  org.quartz.impl.StdSchedulerFactory:1366 - Quartz scheduler version: 2.3.0
+2020-03-10 17:47:00.162 [main] INFO  org.quartz.core.QuartzScheduler:2287 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@460b77d6
+2020-03-10 17:47:02.925 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:59 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-10 17:47:03.141 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-03-10 17:47:03.454 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-10 17:47:04.353 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:160 - Context refreshed
+2020-03-10 17:47:04.368 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2020-03-10 17:47:04.431 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner:41 - Scanning for api listing references
+2020-03-10 17:47:04.625 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_1
+2020-03-10 17:47:04.627 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_1
+2020-03-10 17:47:04.628 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_1
+2020-03-10 17:47:04.629 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: editUsingPUT_1
+2020-03-10 17:47:04.631 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_1
+2020-03-10 17:47:04.639 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_2
+2020-03-10 17:47:04.640 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_2
+2020-03-10 17:47:04.642 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_2
+2020-03-10 17:47:04.644 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: editUsingPUT_2
+2020-03-10 17:47:04.645 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_2
+2020-03-10 17:47:04.648 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryPageListUsingGET_1
+2020-03-10 17:47:04.652 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_3
+2020-03-10 17:47:04.653 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_3
+2020-03-10 17:47:04.654 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_3
+2020-03-10 17:47:04.656 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: editUsingPUT_3
+2020-03-10 17:47:04.657 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_3
+2020-03-10 17:47:04.659 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryPageListUsingGET_2
+2020-03-10 17:47:04.664 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_4
+2020-03-10 17:47:04.665 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_4
+2020-03-10 17:47:04.666 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_4
+2020-03-10 17:47:04.667 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: editUsingPUT_4
+2020-03-10 17:47:04.668 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_4
+2020-03-10 17:47:04.671 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryPageListUsingGET_3
+2020-03-10 17:47:04.675 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_5
+2020-03-10 17:47:04.676 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_5
+2020-03-10 17:47:04.677 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_5
+2020-03-10 17:47:04.679 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: editUsingPUT_5
+2020-03-10 17:47:04.680 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_5
+2020-03-10 17:47:04.683 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryPageListUsingGET_4
+2020-03-10 17:47:04.690 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_6
+2020-03-10 17:47:04.691 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_6
+2020-03-10 17:47:04.692 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_6
+2020-03-10 17:47:04.693 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: editUsingPUT_6
+2020-03-10 17:47:04.694 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_6
+2020-03-10 17:47:04.701 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryPageListUsingGET_5
+2020-03-10 17:47:04.711 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:726 - Starting Quartz Scheduler now
+2020-03-10 17:47:05.209 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:866 - Freed 0 triggers from 'acquired' / 'blocked' state.
+2020-03-10 17:47:05.314 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:876 - Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2020-03-10 17:47:05.315 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:889 - Recovery complete.
+2020-03-10 17:47:05.382 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:896 - Removed 0 'complete' triggers.
+2020-03-10 17:47:05.430 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:901 - Removed 0 stale fired job entries.
+2020-03-10 17:47:05.519 [main] INFO  org.quartz.core.QuartzScheduler:547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-03-10 17:47:05.535 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-10 17:47:05.571 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:204 - Tomcat started on port(s): 8080 (http) with context path '/jeecg-boot'
+2020-03-10 17:47:05.574 [main] INFO  org.jeecg.JeecgApplication:59 - Started JeecgApplication in 40.781 seconds (JVM running for 46.53)
+2020-03-10 17:47:05.909 [RMI TCP Connection(3)-192.168.43.55] INFO  o.a.c.c.C.[Tomcat].[localhost].[/jeecg-boot]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-10 17:47:05.910 [RMI TCP Connection(3)-192.168.43.55] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2020-03-10 17:47:05.929 [RMI TCP Connection(3)-192.168.43.55] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 18 ms
+2020-03-10 17:47:06.073 [RMI TCP Connection(4)-192.168.43.55] INFO  io.lettuce.core.EpollProvider:68 - Starting without optional epoll library
+2020-03-10 17:47:06.075 [RMI TCP Connection(4)-192.168.43.55] INFO  io.lettuce.core.KqueueProvider:70 - Starting without optional kqueue library
+2020-03-10 17:47:10.591 [main] INFO  org.jeecg.JeecgApplication:33 - 
+----------------------------------------------------------
+	Application Jeecg-Boot is running! Access URLs:
+	Local: 		http://localhost:8080/jeecg-boot/
+	External: 	http://192.168.43.55:8080/jeecg-boot/
+	swagger-ui: 	http://192.168.43.55:8080/jeecg-boot/swagger-ui.html
+	Doc: 		http://192.168.43.55:8080/jeecg-boot/doc.html
+----------------------------------------------------------
+2020-03-10 17:47:11.052 [http-nio-8080-exec-1] INFO  org.jeecg.modules.message.websocket.WebSocket:41 - 【websocket消息】有新的连接，总数为:1
+2020-03-10 17:47:12.007 [http-nio-8080-exec-2] INFO  org.jeecg.modules.message.websocket.WebSocket:50 - 【websocket消息】连接断开，总数为:0
+2020-03-10 17:47:13.640 [http-nio-8080-exec-3] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:118 - ———校验token是否有效————checkUserTokenIsEffect——————— eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODM4MzIzMzEsInVzZXJuYW1lIjoiYWRtaW4ifQ.tEdeo6l0Tl7ioEJnej049SSxtZV3KLeoToUo5R09LjI
+2020-03-10 17:47:16.288 [http-nio-8080-exec-3] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:157 - ——————————用户在线操作，更新token保证不掉线—————————jwtTokenRefresh——————— eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODM4MzIzMzEsInVzZXJuYW1lIjoiYWRtaW4ifQ.tEdeo6l0Tl7ioEJnej049SSxtZV3KLeoToUo5R09LjI
+2020-03-10 17:47:16.328 [http-nio-8080-exec-3] INFO  o.j.m.system.controller.SysPermissionController:209 -  ------ 通过令牌获取用户拥有的访问菜单 ---- TOKEN ------ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODM4MzIzMzEsInVzZXJuYW1lIjoiYWRtaW4ifQ.tEdeo6l0Tl7ioEJnej049SSxtZV3KLeoToUo5R09LjI
+2020-03-10 17:47:16.371 [http-nio-8080-exec-3] DEBUG o.j.m.s.mapper.SysPermissionMapper.queryByUser:143 - ==>  Preparing: SELECT * FROM ( SELECT p.* FROM sys_permission p WHERE (exists( select a.id from sys_role_permission a join sys_role b on a.role_id = b.id join sys_user_role c on c.role_id = b.id join sys_user d on d.id = c.user_id where p.id = a.permission_id AND d.username = ? ) or (p.url like '%:code' and p.url like '/online%' and p.hidden = 1) or (p.url = '/online') ) and p.del_flag = 0 UNION SELECT p.* FROM sys_permission p WHERE exists( select a.id from sys_depart_role_permission a join sys_depart_role b on a.role_id = b.id join sys_depart_role_user c on c.drole_id = b.id join sys_user d on d.id = c.user_id where p.id = a.permission_id AND d.username = ? ) and p.del_flag = 0 ) h order by h.sort_no ASC 
+2020-03-10 17:47:16.387 [http-nio-8080-exec-3] DEBUG o.j.m.s.mapper.SysPermissionMapper.queryByUser:143 - ==> Parameters: admin(String), admin(String)
+2020-03-10 17:47:16.659 [http-nio-8080-exec-3] DEBUG o.j.m.s.mapper.SysPermissionMapper.queryByUser:143 - <==      Total: 106
+2020-03-10 17:47:16.722 [http-nio-8080-exec-3] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectList:143 - ==>  Preparing: SELECT id,parent_id,name,perms,perms_type,icon,component,component_name,url,redirect,sort_no,menu_type,is_leaf AS leaf,is_route AS route,keep_alive,description,create_by,del_flag,rule_flag,hidden,create_time,update_by,update_time,status,always_show,internal_or_external FROM sys_permission WHERE del_flag = ? AND menu_type = ? 
+2020-03-10 17:47:16.724 [http-nio-8080-exec-3] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectList:143 - ==> Parameters: 0(Integer), 2(Integer)
+2020-03-10 17:47:16.817 [http-nio-8080-exec-3] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectList:143 - <==      Total: 3
+2020-03-10 17:47:17.578 [http-nio-8080-exec-4] INFO  org.jeecg.modules.message.websocket.WebSocket:41 - 【websocket消息】有新的连接，总数为:1
+2020-03-10 17:47:17.631 [http-nio-8080-exec-5] ERROR o.jeecg.common.system.controller.CommonController:210 - 预览文件失败D:/opt/upFiles/temp/11_1582468686154.jpg (No such file or directory)
+2020-03-10 17:47:17.677 [http-nio-8080-exec-6] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:118 - ———校验token是否有效————checkUserTokenIsEffect——————— eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODM4MzIzMzEsInVzZXJuYW1lIjoiYWRtaW4ifQ.tEdeo6l0Tl7ioEJnej049SSxtZV3KLeoToUo5R09LjI
+2020-03-10 17:47:17.683 [http-nio-8080-exec-7] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:118 - ———校验token是否有效————checkUserTokenIsEffect——————— eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODM4MzIzMzEsInVzZXJuYW1lIjoiYWRtaW4ifQ.tEdeo6l0Tl7ioEJnej049SSxtZV3KLeoToUo5R09LjI
+2020-03-10 17:47:18.102 [http-nio-8080-exec-7] DEBUG o.j.m.s.m.SysAnnouncementSendMapper.queryByUserId:143 - ==>  Preparing: select sas.annt_id from sys_announcement_send sas where sas.user_id = ? 
+2020-03-10 17:47:18.103 [http-nio-8080-exec-7] DEBUG o.j.m.s.m.SysAnnouncementSendMapper.queryByUserId:143 - ==> Parameters: e9ca23d68d884d4ebb19d07889727dae(String)
+2020-03-10 17:47:18.180 [http-nio-8080-exec-7] DEBUG o.j.m.s.m.SysAnnouncementSendMapper.queryByUserId:143 - <==      Total: 1
+2020-03-10 17:47:18.197 [http-nio-8080-exec-7] DEBUG o.j.m.s.mapper.SysAnnouncementMapper.selectList:143 - ==>  Preparing: SELECT id,titile,msg_content,start_time,end_time,sender,priority,msg_category,msg_type,send_status,send_time,cancel_time,del_flag,create_by,create_time,update_by,update_time,user_ids,bus_type,bus_id,open_type,open_page FROM sys_announcement WHERE msg_type = ? AND del_flag = ? AND send_status = ? AND end_time >= ? AND id NOT IN (?) 
+2020-03-10 17:47:18.199 [http-nio-8080-exec-7] DEBUG o.j.m.s.mapper.SysAnnouncementMapper.selectList:143 - ==> Parameters: ALL(String), 0(String), 1(String), 2038-06-21 17:54:10.0(Timestamp), 93a9060a1c20e4bf98b3f768a02c2ff9(String)
+2020-03-10 17:47:18.288 [http-nio-8080-exec-7] DEBUG o.j.m.s.mapper.SysAnnouncementMapper.selectList:143 - <==      Total: 0
+2020-03-10 17:47:18.335 [http-nio-8080-exec-7] DEBUG o.j.m.s.m.S.querySysCementListByUserId:143 - ==>  Preparing: SELECT COUNT(1) FROM sys_announcement WHERE send_status = '1' AND del_flag = '0' AND msg_category = ? AND id IN (SELECT annt_id FROM sys_announcement_send WHERE user_id = ? AND read_flag = '0') 
+2020-03-10 17:47:18.337 [http-nio-8080-exec-7] DEBUG o.j.m.s.m.S.querySysCementListByUserId:143 - ==> Parameters: 1(String), e9ca23d68d884d4ebb19d07889727dae(String)
+2020-03-10 17:47:18.436 [http-nio-8080-exec-7] DEBUG o.j.m.s.m.S.querySysCementListByUserId:143 - ==>  Preparing: SELECT COUNT(1) FROM sys_announcement WHERE send_status = '1' AND del_flag = '0' AND msg_category = ? AND id IN (SELECT annt_id FROM sys_announcement_send WHERE user_id = ? AND read_flag = '0') 
+2020-03-10 17:47:18.438 [http-nio-8080-exec-7] DEBUG o.j.m.s.m.S.querySysCementListByUserId:143 - ==> Parameters: 2(String), e9ca23d68d884d4ebb19d07889727dae(String)
