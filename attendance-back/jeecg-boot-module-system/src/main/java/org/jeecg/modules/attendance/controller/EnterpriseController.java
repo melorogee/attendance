@@ -7,8 +7,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.jeecg.common.api.vo.Result;
 import org.jeecg.common.system.query.QueryGenerator;
 import org.jeecg.modules.attendance.service.EnterpriseService;
-import org.jeecg.modules.monitor.domain.RedisInfo;
-import org.jeecg.modules.monitor.service.RedisService;
 import org.jeecg.modules.system.entity.SysUserAgent;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
