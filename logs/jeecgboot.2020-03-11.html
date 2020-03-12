@@ -89,7 +89,7 @@ TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
 <tr class="info even">
 <td class="Level">INFO</td>
 <td class="Date">2020-03-11 15:31:47,345</td>
-<td class="Message">Bean &#39;shiroRealm&#39; of type [org.jeecg.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="Message">Bean &#39;shiroRealm&#39; of type [com.community.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
 <td class="MethodOfCaller">postProcessAfterInitialization</td>
 <td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
 <td class="LineOfCaller">330</td>
@@ -447,7 +447,7 @@ TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
 <tr class="warn odd">
 <td class="Level">WARN</td>
 <td class="Date">2020-03-11 15:31:58,689</td>
-<td class="Message">Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;testWebController&#39;: Unsatisfied dependency expressed through method &#39;setService&#39; parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;sysUserServiceImpl&#39;: Unsatisfied dependency expressed through field &#39;sysBaseAPI&#39;; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type &#39;org.jeecg.common.system.api.ISysBaseAPI&#39; available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}</td>
+<td class="Message">Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;testWebController&#39;: Unsatisfied dependency expressed through method &#39;setService&#39; parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;sysUserServiceImpl&#39;: Unsatisfied dependency expressed through field &#39;sysBaseAPI&#39;; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type &#39;com.community.common.system.api.ISysBaseAPI&#39; available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}</td>
 <td class="MethodOfCaller">refresh</td>
 <td class="FileOfCaller">AbstractApplicationContext.java</td>
 <td class="LineOfCaller">557</td>
@@ -544,7 +544,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 <td class="FileOfCaller">SpringApplication.java</td>
 <td class="LineOfCaller">858</td>
 </tr>
-<tr><td class="Exception" colspan="6">org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;testWebController&#39;: Unsatisfied dependency expressed through method &#39;setService&#39; parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;sysUserServiceImpl&#39;: Unsatisfied dependency expressed through field &#39;sysBaseAPI&#39;; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type &#39;org.jeecg.common.system.api.ISysBaseAPI&#39; available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+<tr><td class="Exception" colspan="6">org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;testWebController&#39;: Unsatisfied dependency expressed through method &#39;setService&#39; parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;sysUserServiceImpl&#39;: Unsatisfied dependency expressed through field &#39;sysBaseAPI&#39;; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type &#39;com.community.common.system.api.ISysBaseAPI&#39; available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:676)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
@@ -565,7 +565,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.JeecgApplication.main(JeecgApplication.java:28)
-<br />Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;sysUserServiceImpl&#39;: Unsatisfied dependency expressed through field &#39;sysBaseAPI&#39;; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type &#39;org.jeecg.common.system.api.ISysBaseAPI&#39; available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+<br />Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;sysUserServiceImpl&#39;: Unsatisfied dependency expressed through field &#39;sysBaseAPI&#39;; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type &#39;com.community.common.system.api.ISysBaseAPI&#39; available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
@@ -581,7 +581,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:668)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;	... 19 common frames omitted
-<br />Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type &#39;org.jeecg.common.system.api.ISysBaseAPI&#39; available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+<br />Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type &#39;com.community.common.system.api.ISysBaseAPI&#39; available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1654)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1213)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
@@ -678,7 +678,7 @@ TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
 <tr class="info even">
 <td class="Level">INFO</td>
 <td class="Date">2020-03-11 15:33:23,672</td>
-<td class="Message">Bean &#39;shiroRealm&#39; of type [org.jeecg.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="Message">Bean &#39;shiroRealm&#39; of type [com.community.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
 <td class="MethodOfCaller">postProcessAfterInitialization</td>
 <td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
 <td class="LineOfCaller">330</td>
@@ -948,7 +948,7 @@ TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
 <tr class="warn even">
 <td class="Level">WARN</td>
 <td class="Date">2020-03-11 15:33:36,061</td>
-<td class="Message">Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;casClientController&#39;: Unsatisfied dependency expressed through field &#39;sysUserService&#39;; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;sysUserServiceImpl&#39;: Unsatisfied dependency expressed through field &#39;sysBaseAPI&#39;; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type &#39;org.jeecg.common.system.api.ISysBaseAPI&#39; available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}</td>
+<td class="Message">Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;casClientController&#39;: Unsatisfied dependency expressed through field &#39;sysUserService&#39;; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;sysUserServiceImpl&#39;: Unsatisfied dependency expressed through field &#39;sysBaseAPI&#39;; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type &#39;com.community.common.system.api.ISysBaseAPI&#39; available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}</td>
 <td class="MethodOfCaller">refresh</td>
 <td class="FileOfCaller">AbstractApplicationContext.java</td>
 <td class="LineOfCaller">557</td>
@@ -1009,7 +1009,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 <td class="FileOfCaller">SpringApplication.java</td>
 <td class="LineOfCaller">858</td>
 </tr>
-<tr><td class="Exception" colspan="6">org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;casClientController&#39;: Unsatisfied dependency expressed through field &#39;sysUserService&#39;; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;sysUserServiceImpl&#39;: Unsatisfied dependency expressed through field &#39;sysBaseAPI&#39;; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type &#39;org.jeecg.common.system.api.ISysBaseAPI&#39; available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+<tr><td class="Exception" colspan="6">org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;casClientController&#39;: Unsatisfied dependency expressed through field &#39;sysUserService&#39;; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;sysUserServiceImpl&#39;: Unsatisfied dependency expressed through field &#39;sysBaseAPI&#39;; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type &#39;com.community.common.system.api.ISysBaseAPI&#39; available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
@@ -1030,7 +1030,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.JeecgApplication.main(JeecgApplication.java:28)
-<br />Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;sysUserServiceImpl&#39;: Unsatisfied dependency expressed through field &#39;sysBaseAPI&#39;; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type &#39;org.jeecg.common.system.api.ISysBaseAPI&#39; available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+<br />Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;sysUserServiceImpl&#39;: Unsatisfied dependency expressed through field &#39;sysBaseAPI&#39;; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type &#39;com.community.common.system.api.ISysBaseAPI&#39; available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
@@ -1046,7 +1046,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;	... 19 common frames omitted
-<br />Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type &#39;org.jeecg.common.system.api.ISysBaseAPI&#39; available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+<br />Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type &#39;com.community.common.system.api.ISysBaseAPI&#39; available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1654)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1213)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
@@ -1143,7 +1143,7 @@ TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
 <tr class="info even">
 <td class="Level">INFO</td>
 <td class="Date">2020-03-11 15:34:14,645</td>
-<td class="Message">Bean &#39;shiroRealm&#39; of type [org.jeecg.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="Message">Bean &#39;shiroRealm&#39; of type [com.community.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
 <td class="MethodOfCaller">postProcessAfterInitialization</td>
 <td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
 <td class="LineOfCaller">330</td>
@@ -1413,7 +1413,7 @@ TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
 <tr class="warn even">
 <td class="Level">WARN</td>
 <td class="Date">2020-03-11 15:34:28,081</td>
-<td class="Message">Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;casClientController&#39;: Unsatisfied dependency expressed through field &#39;sysUserService&#39;; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;sysUserServiceImpl&#39;: Unsatisfied dependency expressed through field &#39;sysBaseAPI&#39;; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type &#39;org.jeecg.common.system.api.ISysBaseAPI&#39; available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}</td>
+<td class="Message">Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;casClientController&#39;: Unsatisfied dependency expressed through field &#39;sysUserService&#39;; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;sysUserServiceImpl&#39;: Unsatisfied dependency expressed through field &#39;sysBaseAPI&#39;; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type &#39;com.community.common.system.api.ISysBaseAPI&#39; available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}</td>
 <td class="MethodOfCaller">refresh</td>
 <td class="FileOfCaller">AbstractApplicationContext.java</td>
 <td class="LineOfCaller">557</td>
@@ -1474,7 +1474,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 <td class="FileOfCaller">SpringApplication.java</td>
 <td class="LineOfCaller">858</td>
 </tr>
-<tr><td class="Exception" colspan="6">org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;casClientController&#39;: Unsatisfied dependency expressed through field &#39;sysUserService&#39;; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;sysUserServiceImpl&#39;: Unsatisfied dependency expressed through field &#39;sysBaseAPI&#39;; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type &#39;org.jeecg.common.system.api.ISysBaseAPI&#39; available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+<tr><td class="Exception" colspan="6">org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;casClientController&#39;: Unsatisfied dependency expressed through field &#39;sysUserService&#39;; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;sysUserServiceImpl&#39;: Unsatisfied dependency expressed through field &#39;sysBaseAPI&#39;; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type &#39;com.community.common.system.api.ISysBaseAPI&#39; available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
@@ -1495,7 +1495,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.JeecgApplication.main(JeecgApplication.java:28)
-<br />Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;sysUserServiceImpl&#39;: Unsatisfied dependency expressed through field &#39;sysBaseAPI&#39;; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type &#39;org.jeecg.common.system.api.ISysBaseAPI&#39; available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+<br />Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;sysUserServiceImpl&#39;: Unsatisfied dependency expressed through field &#39;sysBaseAPI&#39;; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type &#39;com.community.common.system.api.ISysBaseAPI&#39; available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
@@ -1511,7 +1511,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;	... 19 common frames omitted
-<br />Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type &#39;org.jeecg.common.system.api.ISysBaseAPI&#39; available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+<br />Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type &#39;com.community.common.system.api.ISysBaseAPI&#39; available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1654)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1213)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
@@ -1608,7 +1608,7 @@ TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
 <tr class="info even">
 <td class="Level">INFO</td>
 <td class="Date">2020-03-11 15:35:47,844</td>
-<td class="Message">Bean &#39;shiroRealm&#39; of type [org.jeecg.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="Message">Bean &#39;shiroRealm&#39; of type [com.community.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
 <td class="MethodOfCaller">postProcessAfterInitialization</td>
 <td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
 <td class="LineOfCaller">330</td>
@@ -3689,14 +3689,14 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:184)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:95)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.data.redis.core.DefaultValueOperations.get(DefaultValueOperations.java:53)
-<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.common.util.RedisUtil.get(RedisUtil.java:96)
-<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.modules.system.controller.LoginController.login(LoginController.java:75)
-<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.modules.system.controller.LoginController$$FastClassBySpringCGLIB$$b307ab61.invoke(&lt;generated&gt;)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.community.common.util.RedisUtil.get(RedisUtil.java:96)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.community.modules.system.controller.LoginController.login(LoginController.java:75)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.community.modules.system.controller.LoginController$$FastClassBySpringCGLIB$$b307ab61.invoke(&lt;generated&gt;)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
-<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.modules.system.aspect.DictAspect.doAround(DictAspect.java:50)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.community.modules.system.aspect.DictAspect.doAround(DictAspect.java:50)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -3708,7 +3708,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
-<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.modules.system.controller.LoginController$$EnhancerBySpringCGLIB$$58b1f052.login(&lt;generated&gt;)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.community.modules.system.controller.LoginController$$EnhancerBySpringCGLIB$$58b1f052.login(&lt;generated&gt;)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -4429,14 +4429,14 @@ The last packet successfully received from the server was 60,074 milliseconds ag
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:184)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:95)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.data.redis.core.DefaultValueOperations.get(DefaultValueOperations.java:53)
-<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.common.util.RedisUtil.get(RedisUtil.java:96)
-<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.modules.system.controller.LoginController.login(LoginController.java:75)
-<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.modules.system.controller.LoginController$$FastClassBySpringCGLIB$$b307ab61.invoke(&lt;generated&gt;)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.community.common.util.RedisUtil.get(RedisUtil.java:96)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.community.modules.system.controller.LoginController.login(LoginController.java:75)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.community.modules.system.controller.LoginController$$FastClassBySpringCGLIB$$b307ab61.invoke(&lt;generated&gt;)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
-<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.modules.system.aspect.DictAspect.doAround(DictAspect.java:50)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.community.modules.system.aspect.DictAspect.doAround(DictAspect.java:50)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -4448,7 +4448,7 @@ The last packet successfully received from the server was 60,074 milliseconds ag
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
-<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.modules.system.controller.LoginController$$EnhancerBySpringCGLIB$$58b1f052.login(&lt;generated&gt;)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.community.modules.system.controller.LoginController$$EnhancerBySpringCGLIB$$58b1f052.login(&lt;generated&gt;)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -4664,7 +4664,7 @@ TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
 <tr class="info even">
 <td class="Level">INFO</td>
 <td class="Date">2020-03-11 15:42:34,869</td>
-<td class="Message">Bean &#39;shiroRealm&#39; of type [org.jeecg.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="Message">Bean &#39;shiroRealm&#39; of type [com.community.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
 <td class="MethodOfCaller">postProcessAfterInitialization</td>
 <td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
 <td class="LineOfCaller">330</td>
@@ -10030,8 +10030,8 @@ TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
 <td class="LineOfCaller">175</td>
 </tr>
 <tr><td class="Exception" colspan="6">org.apache.shiro.authc.AuthenticationException: 用户不存在!
-<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.modules.shiro.authc.ShiroRealm.checkUserTokenIsEffect(ShiroRealm.java:121)
-<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.modules.shiro.authc.ShiroRealm.doGetAuthenticationInfo(ShiroRealm.java:101)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.community.modules.shiro.authc.ShiroRealm.checkUserTokenIsEffect(ShiroRealm.java:121)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.community.modules.shiro.authc.ShiroRealm.doGetAuthenticationInfo(ShiroRealm.java:101)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.realm.AuthenticatingRealm.getAuthenticationInfo(AuthenticatingRealm.java:571)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doSingleRealmAuthentication(ModularRealmAuthenticator.java:180)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doAuthenticate(ModularRealmAuthenticator.java:267)
@@ -10039,12 +10039,12 @@ TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.mgt.AuthenticatingSecurityManager.authenticate(AuthenticatingSecurityManager.java:106)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.mgt.DefaultSecurityManager.login(DefaultSecurityManager.java:274)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.subject.support.DelegatingSubject.login(DelegatingSubject.java:260)
-<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.modules.shiro.authc.aop.JwtFilter.executeLogin(JwtFilter.java:51)
-<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.modules.shiro.authc.aop.JwtFilter.isAccessAllowed(JwtFilter.java:34)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.community.modules.shiro.authc.aop.JwtFilter.executeLogin(JwtFilter.java:51)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.community.modules.shiro.authc.aop.JwtFilter.isAccessAllowed(JwtFilter.java:34)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.filter.AccessControlFilter.onPreHandle(AccessControlFilter.java:162)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.filter.PathMatchingFilter.isFilterChainContinued(PathMatchingFilter.java:203)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.filter.PathMatchingFilter.preHandle(PathMatchingFilter.java:178)
-<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.modules.shiro.authc.aop.JwtFilter.preHandle(JwtFilter.java:71)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.community.modules.shiro.authc.aop.JwtFilter.preHandle(JwtFilter.java:71)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:131)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
@@ -14377,7 +14377,7 @@ TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
 <td class="LineOfCaller">175</td>
 </tr>
 <tr><td class="Exception" colspan="6">org.apache.shiro.authc.AuthenticationException: token为空!
-<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.modules.shiro.authc.ShiroRealm.doGetAuthenticationInfo(ShiroRealm.java:98)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.community.modules.shiro.authc.ShiroRealm.doGetAuthenticationInfo(ShiroRealm.java:98)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.realm.AuthenticatingRealm.getAuthenticationInfo(AuthenticatingRealm.java:571)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doSingleRealmAuthentication(ModularRealmAuthenticator.java:180)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doAuthenticate(ModularRealmAuthenticator.java:267)
@@ -14385,12 +14385,12 @@ TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.mgt.AuthenticatingSecurityManager.authenticate(AuthenticatingSecurityManager.java:106)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.mgt.DefaultSecurityManager.login(DefaultSecurityManager.java:274)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.subject.support.DelegatingSubject.login(DelegatingSubject.java:260)
-<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.modules.shiro.authc.aop.JwtFilter.executeLogin(JwtFilter.java:51)
-<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.modules.shiro.authc.aop.JwtFilter.isAccessAllowed(JwtFilter.java:34)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.community.modules.shiro.authc.aop.JwtFilter.executeLogin(JwtFilter.java:51)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.community.modules.shiro.authc.aop.JwtFilter.isAccessAllowed(JwtFilter.java:34)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.filter.AccessControlFilter.onPreHandle(AccessControlFilter.java:162)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.filter.PathMatchingFilter.isFilterChainContinued(PathMatchingFilter.java:203)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.filter.PathMatchingFilter.preHandle(PathMatchingFilter.java:178)
-<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.modules.shiro.authc.aop.JwtFilter.preHandle(JwtFilter.java:71)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.community.modules.shiro.authc.aop.JwtFilter.preHandle(JwtFilter.java:71)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:131)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
 <br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
@@ -14628,7 +14628,7 @@ TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
 <tr class="info even">
 <td class="Level">INFO</td>
 <td class="Date">2020-03-11 16:17:03,507</td>
-<td class="Message">Bean &#39;shiroRealm&#39; of type [org.jeecg.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="Message">Bean &#39;shiroRealm&#39; of type [com.community.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
 <td class="MethodOfCaller">postProcessAfterInitialization</td>
 <td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
 <td class="LineOfCaller">330</td>
